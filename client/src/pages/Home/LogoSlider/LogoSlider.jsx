@@ -25,7 +25,7 @@ const LogoSlider = () => {
             key={index}
             src={logo}
             alt={`Company logo ${index + 1}`}
-            className="h-16 mx-12 object-contain"
+            className="h-6 mx-12 object-contain"
           />
         ))}
       </Marquee>
